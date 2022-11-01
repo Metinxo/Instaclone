@@ -1,0 +1,423 @@
+body {
+    margin: 0;
+    font-family: 'Economica', sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 1px 1px 2px 1px rgb(0 0 0 / 14%);
+    min-height: 60px;
+    background-color: #ffffff
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(255, 255, 255);
+}
+
+
+.logo-pic {
+    height: 40px;
+    padding: 1px;
+    cursor: pointer;
+}
+
+
+.search {
+
+    background-color: rgba(239, 239, 239, 255);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    width: 250px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.photome {
+    border-radius: 100px;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+
+.content {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+.rightside {
+    position: sticky;
+    margin: 15px;
+    padding: 15px;
+    width: 15px;
+    background-color: rgb(247, 247, 247);
+    width: 17%;
+    border-radius: 8px;
+    border: 1px solid lightgrey;
+    height: max-content;
+}
+
+
+.photomeright {
+    border-radius: 100px;
+    height: 70px;
+    width: 70px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.myprofile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+
+.myprofileright {
+
+    display: flex;
+    align-items: center;
+}
+
+
+.wechseln {
+    cursor: pointer;
+    color: rgba(43, 166, 247, 255);
+    font-size: 20px;
+}
+
+
+.rightsidename {
+    cursor: pointer;
+}
+
+
+.seeall {
+
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+
+.seealltext {
+    cursor: pointer;
+}
+
+
+.imgarrays {
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+
+.onrightacc {
+    margin-bottom: 15px;
+}
+
+
+.namesright {
+    font-size: 23px;
+}
+
+
+.followbutton {
+    cursor: pointer;
+    color: rgba(43, 166, 247, 255);
+}
+
+
+.mainsidebar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+
+.stories {
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    background-color: rgb(247, 247, 247);
+}
+
+
+.profile-pic {
+    height: 55px;
+    width: 55px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+
+.storyspan {
+    font-size: 13px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+
+.allstorys {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 11px;
+}
+
+
+.storie {
+    height: 55px;
+    width: 55px;
+    border-radius: 100%;
+    object-fit: cover;
+    background: linear-gradient(#fff, #fff) padding-box, linear-gradient(45deg, orange, purple) border-box;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+
+.storiespan{
+    cursor: pointer;
+}
+
+
+.leftside {
+    background-color: rgb(233 160 160);
+    width: 70%;
+}
+
+
+.miniatur {
+    height: 55px;
+    width: 55px;
+    border-radius: 100%;
+    object-fit: cover;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+.postzbox {
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(247, 247, 247);
+}
+
+
+.position {
+    display: flex;
+    align-items: center;
+}
+
+
+.author {
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+
+.location {
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+.img {
+    width: 570px;
+    height: 520px;
+}
+
+
+.iconsz {
+    width: 24px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+.icons {
+    width: 24px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+.post-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+
+.likes {
+    margin-left: 8px;
+    margin-bottom: 4px;
+}
+
+
+.tags {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.description {
+    margin-left: 20px;
+
+}
+
+
+.usernamepost {
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+
+
+.hash {
+    margin-left: 20px;
+    color: rgba(43, 166, 247, 255);
+}
+
+
+.post-comment-input-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+
+.comment {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+
+.post-comment-input {
+border: unset;
+width: 80%;
+outline: none;
+}
+
+
+.btnsz {
+    border: none;
+    color: #06a4ff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.d-none {
+    display: none;
+}
+
+
+@media(max-width:1024px) {
+.rightside {
+display: none;
+}
+
+
+header {
+     padding-left: 6px; 
+     padding-right: 6px;
+     flex-direction: column;
+     box-shadow: none;
+}
+
+
+.search {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.content {
+    display: unset;
+    justify-content: unset;
+    flex-direction: unset;
+    align-items: unset;
+}
+
+
+.stories {
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-right: unset;
+}
+
+
+main {
+     display:unset;
+     justify-content:unset;
+}
+
+
+.img {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+
+
+.foryou {
+    margin: 6px;
+    width: -webkit-fill-available;
+}
+
+
+}

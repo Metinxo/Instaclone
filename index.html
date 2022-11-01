@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Economica:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>INSTACLONE</title>
+</head>
+
+<body onload="show()">
+
+
+    <header>
+        <div class="logo-container">
+            <img class="logo-pic" src="img/up.png">
+        </div>
+        <input class="search" placeholder="Suchen">
+        <nav>
+            <img class="icon" src="img/home.png">
+            <img class="icon" src="img/upload.png">
+            <img class="icon" src="img/plus.png">
+            <img class="icon" src="img/compass.png">
+            <img class="icon" src="img/heart-black.png">
+            <img class="photome" src="img/5.png">
+        </nav>
+    </header>
+
+
+    <main>
+        <div id="content" class="content">
+            <div class="stories">
+                <div class="allstorys">
+                    <img class="storie" src="img/1.png">
+                    <span class="storiespan">Mister.burger</span>
+                </div>
+
+                <div class="allstorys">
+                    <img class="storie" src="img/2.png">
+                    <span class="storiespan">Burgerista</span>
+                </div>
+
+                <div class="allstorys">
+                    <img class="storie" src="img/3.png">
+                    <span class="storiespan">Burgertina</span>
+                </div>
+
+                <div class="allstorys">
+                    <img class="storie" src="img/4.png">
+                    <span class="storiespan">Codingburger</span>
+                </div>
+
+                <div class="allstorys">
+                    <img class="storie" src="img/5.png">
+                    <span class="storiespan">NYCburger</span>
+                </div>
+            </div>
+            <div class="foryou" id="foryou">foryou</div>
+        </div>
+
+
+        <div id="rightside" class="rightside">
+            <div class="myprofile">
+                <div class="myprofileright"> <img class="photomeright" src="img/5.png">
+                    <span class="rightsidename">Metin Aykan</span>
+                </div> <span class="wechseln">Wechseln</span>
+            </div>
+
+
+            <div class="seeall"><span>Vorschläge für dich</span> <span class="seealltext">Alle ansehen</span></div>
+            <div id="content1" class="followThem">
+                <div class="mainsidebar">
+                    <div class="onrightacc">
+                        <img src="img/1.png" class="imgarrays"> <span class="namesright">Burgerlove</span>
+                    </div>
+                    <span onclick="follow()" id="follow" class="followbutton">Folgen</span>
+                    <span onclick="unfollow()" id="followed" class="followbutton d-none">Gefolgt</span>
+                </div>
+                <div class="mainsidebar">
+                    <div class="onrightacc">
+                        <img src="img/2.png" class="imgarrays"> <span class="namesright">Tastyburgers</span>
+                    </div>
+                    <span onclick="follow2()" id="follow2" class="followbutton">Folgen</span>
+                    <span onclick="unfollow2()" id="followed2" class="followbutton d-none">Gefolgt</span>
+                </div>
+                <div class="mainsidebar">
+                    <div class="onrightacc">
+                        <img src="img/3.png" class="imgarrays"> <span class="namesright">Burgerme</span>
+                    </div>
+                    <span onclick="follow3()" id="follow3" class="followbutton">Folgen</span>
+                    <span onclick="unfollow3()" id="followed3" class="followbutton d-none">Gefolgt</span>
+                </div>
+                <div class="mainsidebar">
+                    <div class="onrightacc">
+                        <img src="img/4.png" class="imgarrays"> <span class="namesright">Smashit</span>
+                    </div>
+                    <span onclick="follow4()" id="follow4" class="followbutton">Folgen</span>
+                    <span onclick="unfollow4()" id="followed4" class="followbutton d-none">Gefolgt</span>
+                </div>
+                <div class="mainsidebar">
+                    <div class="onrightacc">
+                        <img src="img/5.png" class="imgarrays"> <span class="namesright">Burger439</span>
+                    </div>
+                    <span onclick="follow5()" id="follow5" class="followbutton">Folgen</span>
+                    <span onclick="unfollow5()" id="followed5" class="followbutton d-none">Gefolgt</span>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
